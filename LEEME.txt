@@ -1,0 +1,61 @@
+AUTOCLICKER PRO · TIKTOK
+========================
+Auto-clicker de escritorio para dar "me gusta" en TikTok sin quedarte sin
+ratón ni teclado. De 1 a 10.000 clicks por minuto.
+
+CÓMO SE USA
+-----------
+1. Abre TikTok (Chrome, Edge o la app) y deja el vídeo/directo a la vista.
+2. Pulsa  F2  con el cursor justo encima del CORAZÓN de "me gusta".
+   (También puedes pulsar el botón "Marcar punto" y tienes 3 segundos.)
+   - Verás las coordenadas y el nombre de la ventana marcada.
+3. Elige los clicks por minuto (deslizador, número o botones 60/300/600...).
+4. Pulsa  T  para empezar.  Pulsa  X  para parar.
+   También valen los botones INICIAR / DETENER.
+
+Mientras está activo puedes seguir usando el ordenador: el cursor NO se
+mueve y el teclado NO pierde el foco (la app avisa a Chrome para que no se
+active al recibir el click).
+
+MODOS
+-----
+- "Ventana (recomendado)": el click se envía directamente a la ventana
+  marcada. Tu ratón es 100 % tuyo. Funciona incluso con Chrome detrás de
+  otras ventanas.
+- "Físico": mueve el cursor un instante y lo devuelve. Úsalo solo si el
+  modo Ventana no reacciona (algunas apps no aceptan clicks sintéticos).
+  Con este modo sí notarás el cursor saltar; no lo uses a muchas rpm.
+
+OPCIONES
+--------
+- "Pausar mientras uso el ratón o el teclado": si lo marcas, los clicks se
+  paran al instante cuando mueves el ratón o escribes y siguen solos
+  ~0,7 s después. Útil si quieres cero interferencias.
+- "Probar 5 clicks": envía 5 clicks al punto marcado para comprobar que
+  funciona (mira si el corazón se ilumina).
+
+CONSEJOS
+--------
+- Para likes, 300-600 cpm ya es muchísimo. Por encima de ~1500 TikTok puede
+  ignorar parte de los clicks.
+- Si mueves la ventana, cambias el zoom o haces scroll, vuelve a marcar con
+  F2 (el corazón se habrá movido).
+- Si el contador "CLICKS" sube pero TikTok no reacciona, prueba el modo
+  Físico con 2-3 clicks por segundo.
+- La velocidad real se ve en "VELOCIDAD REAL".
+- La configuración y el último punto se guardan solos en:
+  %APPDATA%\AutoClickerTikTok\config.json
+
+ATAJOS
+------
+T    iniciar / detener
+X    detener
+F2   marcar el punto bajo el cursor
+(Con Ctrl, Alt o Mayús pulsado se ignoran, para no molestar al escribir.)
+
+ARCHIVOS
+--------
+AutoClicker TikTok.exe   -> la aplicación (no necesita Python)
+autoclicker_tiktok.py    -> el código fuente, por si quieres modificarlo
+Ejecutar con Python.bat  -> alternativa si el .exe no arranca
+icon.ico                 -> icono

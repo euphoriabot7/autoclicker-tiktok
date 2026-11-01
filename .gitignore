@@ -1,0 +1,13 @@
+# Binarios y artefactos de compilación
+*.exe
+build/
+dist/
+*.spec
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Configuración local
+config.json
+*.bak
